@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@400;500;600;700&display=swap');
+body{
+	margin: 0;
+}
+section{
+		text-align: center;
+		 height: 50vh;
+		 display: flex;
+		 justify-content: center;
+		 align-items: center;
+         background-size: cover !important;
+	    background-position: center !important;
+	}
+.goodman {
+	  background: #309562e0;
+	  background-image: url(../images/goodman.jpg);
+     background-blend-mode: color-burn;
+}
+.badman {
+	background: #f72e2eeb;
+	background-image: url(../images/badman.jpg);
+	}
+.goodgirl{
+		background: #287881e0;
+		background-image: url(../images/goodgirl.jpg);
+	   background-blend-mode: hard-light;
+}
+ .badgirl{
+		background: #6fc94ac4;
+		background-image: url(../images/badgirl.jpg);
+	  background-blend-mode: multiply;
+}
+		 h1 {
+		 font-size: 60px;
+		 color: whitesmoke;
+		 margin: 0;
+		 font-family: 'Alfa Slab One', cursive;
+		 letter-spacing: 3px;
+		}
+		strong {
+	    font-family: 'Dancing Script', cursive;
+	    font-size: 80px;
+	}
+	   p{
+		   color: white;
+		   font-size: 20px;
+	   }
+	 
